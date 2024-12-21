@@ -6,45 +6,33 @@ thumb_force_logo: true
 
 {%- include amsf/core -%}
 
-<!-- Article wrapper, limit width -->
 <article>
-
-  <!-- Post title -->
   <header>
-
     <h1 class="image-title">
-      Almace Scaffolding
+      Front Range Moderates
       <img src="{{ amsf_user_assets }}/svg/amsf.svg">
     </h1>
 
-    <h2 class="sub-title">A super-fast Jekyll framework fighting against the website obesity.</h2>
-
-    <small>a.k.a. <b>AMSF</b>&#x30FB;ver. <b class="amsf-version">2.0.24</b>&#x30FB;view it on <a href="https://github.com/sparanoid/almace-scaffolding">GitHub</a></small>
+    <h2 class="sub-title">A guide to the best moderate boulders in Colorado's Front Range</h2>
   </header>
 
+  <h2>Boulder Canyon</h2>
   <div class="page-content">
-    <h2>Getting Started</h2>
-    {% for post in site.tags.getting-started %}
+    {% for post in site.tags.boulder_canyon %}
       {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
     {% endfor %}
+  </div>
 
-    <h2>Customization</h2>
-    {% for post in site.tags.customization %}
+  <h2>Camp Dick</h2>
+  <div class="page-content">
+    {% for post in site.tags.camp_dick %}
       {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
     {% endfor %}
+  </div>
 
-    <h2>Theme Curtana</h2>
-    {% for post in site.tags.curtana %}
-      {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
-    {% endfor %}
-
-    <h2>Deployment</h2>
-    {% for post in site.tags.deployment %}
-      {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
-    {% endfor %}
-
-    <h2>Miscellaneous</h2>
-    {% for post in site.tags.miscellaneous %}
+  <h2>Green Mountain</h2>
+  <div class="page-content">
+    {% for post in site.tags.green_mountain %}
       {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
     {% endfor %}
   </div>
