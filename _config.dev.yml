@@ -17,6 +17,3 @@ dev:            true
 
 # Reset base to / for localhost development
 baseurl:        ""
-
-# CDN location for development
-file:           https://s3.amazonaws.com/sparanoid
