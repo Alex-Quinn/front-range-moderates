@@ -10,9 +10,12 @@
 
 TLDR:
 ```
+# Setup
 bundle install
 yarn install
 grunt init
+
+# Development
 grunt serve
 # Visit http://0.0.0.0:4321/
 ```
