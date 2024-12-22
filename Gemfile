@@ -3,7 +3,6 @@ source "https://rubygems.org"
 gem "jekyll", "4.3.2"
 
 group :development do
-  gem "jekyll-last-modified-at"
   gem "stringex"
   gem "webrick"
 
@@ -13,6 +12,7 @@ end
 
 group :jekyll_plugins do
   gem "match_regex"
+  gem "jekyll-last-modified-at"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
