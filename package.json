@@ -35,6 +35,7 @@
     "grunt-bump": "0.8.0",
     "grunt-cache-bust": "1.7.0",
     "grunt-cleanempty": "1.0.4",
+    "grunt-cli": "^1.5.0",
     "grunt-coffeelint": "0.0.16",
     "grunt-concurrent": "3.0.0",
     "grunt-contrib-clean": "2.0.1",
