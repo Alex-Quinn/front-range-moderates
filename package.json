@@ -70,5 +70,6 @@
   ],
   "dependencies": {
     "@percy/cli": "^1.17.0"
-  }
+  },
+  "packageManager": "yarn@3.6.3"
 }
