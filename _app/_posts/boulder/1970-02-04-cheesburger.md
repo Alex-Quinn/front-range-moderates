@@ -14,4 +14,4 @@ tags:
 
 
 ## More Info
-https://www.mountainproject.com/route/106657881/cheeseburger
+[https://www.mountainproject.com/route/106657881/cheeseburger](https://www.mountainproject.com/route/106657881/cheeseburger){:target="_blank"}

@@ -14,4 +14,4 @@ tags:
 
 
 ## More Info
-https://www.mountainproject.com/route/105749368/jaws
+[https://www.mountainproject.com/route/105749368/jaws](https://www.mountainproject.com/route/105749368/jaws){:target="_blank"}

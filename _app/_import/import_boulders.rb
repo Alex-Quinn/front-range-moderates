@@ -30,6 +30,14 @@ sorted.each.with_index do |info, i|
   file_name = "#{time_for_file_name.strftime("%Y-%m-%d")}-#{sanitized_name}.md"
   file_path = "_app/_posts/boulder/#{file_name}"
 
+  more_info = info["More Info"]
+  more_info_str =
+    if more_info =~ /\.com/
+      "[#{more_info}](#{more_info}){:target=\"_blank\"}"
+    else
+      more_info
+    end
+
   contents = <<-TEMPLATE
 ---
 layout: boulder
@@ -47,7 +55,7 @@ tags:
 #{info["Description"]}
 
 ## More Info
-#{info["More Info"]}
+#{more_info_str}
   TEMPLATE
 
   File.open(file_path, "w+") do |f|

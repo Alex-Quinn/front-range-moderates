@@ -14,4 +14,4 @@ tags:
 
 
 ## More Info
-https://www.mountainproject.com/route/106484362/guiding-light-aka-round-up
+[https://www.mountainproject.com/route/106484362/guiding-light-aka-round-up](https://www.mountainproject.com/route/106484362/guiding-light-aka-round-up){:target="_blank"}

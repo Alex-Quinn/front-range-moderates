@@ -14,4 +14,4 @@ tags:
 
 
 ## More Info
-https://www.mountainproject.com/route/106527391/the-acro-ace
+[https://www.mountainproject.com/route/106527391/the-acro-ace](https://www.mountainproject.com/route/106527391/the-acro-ace){:target="_blank"}

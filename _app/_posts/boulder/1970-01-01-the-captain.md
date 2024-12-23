@@ -14,4 +14,4 @@ tags:
 
 
 ## More Info
-https://www.mountainproject.com/route/106438889/the-captain
+[https://www.mountainproject.com/route/106438889/the-captain](https://www.mountainproject.com/route/106438889/the-captain){:target="_blank"}
