@@ -23,7 +23,7 @@ time_for_file_name = Time.at(0)
 sorted.each.with_index do |info, i|
   puts "   - #{info["Name"]}"
 
-  sanitized_name = info["Name"].gsub(/'|"|\(|\)/, "").tr(" ", "-").downcase
+  sanitized_name = info["Name"].gsub(/\.|'|"|\(|\)/, "").tr(" ", "-").downcase
 
   # To make sure boulders show up in order, hack together dates in ascending order
   time_for_file_name += 86400
