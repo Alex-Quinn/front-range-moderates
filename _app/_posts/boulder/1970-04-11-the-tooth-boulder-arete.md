@@ -2,12 +2,13 @@
 layout: boulder
 category: boulder
 
-title: The Tooth Boulder Arete (1)
+title: The Tooth Boulder Arete
 grade: V0
 location: Lumpy Ridge
 tags:
   - v0
   - lumpy_ridge
+full_page: false
 ---
 
 ## Description

@@ -8,6 +8,7 @@ location: Lumpy Ridge
 tags:
   - v3
   - lumpy_ridge
+full_page: false
 ---
 
 ## Description

@@ -8,6 +8,7 @@ location: Boulder Canyon
 tags:
   - v4
   - boulder_canyon
+full_page: false
 ---
 
 ## Description

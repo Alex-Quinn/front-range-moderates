@@ -8,6 +8,7 @@ location: Horsetooth Reservoir
 tags:
   - v4
   - horsetooth_reservoir
+full_page: false
 ---
 
 ## Description

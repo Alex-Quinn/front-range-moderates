@@ -8,6 +8,7 @@ location: Lion's Den
 tags:
   - v4
   - lion's_den
+full_page: false
 ---
 
 ## Description

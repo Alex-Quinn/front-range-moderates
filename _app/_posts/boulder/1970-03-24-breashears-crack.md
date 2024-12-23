@@ -8,6 +8,7 @@ location: Morrison
 tags:
   - v2
   - morrison
+full_page: false
 ---
 
 ## Description

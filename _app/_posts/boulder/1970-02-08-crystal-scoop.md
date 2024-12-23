@@ -8,6 +8,7 @@ location: Green Mountain
 tags:
   - v4
   - green_mountain
+full_page: false
 ---
 
 ## Description

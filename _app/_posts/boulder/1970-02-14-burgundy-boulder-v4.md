@@ -8,6 +8,7 @@ location: Flatirons
 tags:
   - v4
   - flatirons
+full_page: false
 ---
 
 ## Description

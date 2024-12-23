@@ -8,6 +8,7 @@ location: Three Sisters
 tags:
   - v2
   - three_sisters
+full_page: false
 ---
 
 ## Description

@@ -2,12 +2,13 @@
 layout: boulder
 category: boulder
 
-title: A7 - V1
-grade: V1
-location: Flatirons
+title: Hatchery Rock V3 - 1
+grade: V3
+location: Poudre Canyon
 tags:
-  - v1
-  - flatirons
+  - v3
+  - poudre_canyon
+full_page: false
 ---
 
 ## Description

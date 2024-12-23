@@ -8,6 +8,7 @@ location: Carter Lake
 tags:
   - v5
   - carter_lake
+full_page: false
 ---
 
 ## Description

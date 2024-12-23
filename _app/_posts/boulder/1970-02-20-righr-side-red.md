@@ -8,6 +8,7 @@ location: Flagstaff
 tags:
   - v4
   - flagstaff
+full_page: false
 ---
 
 ## Description

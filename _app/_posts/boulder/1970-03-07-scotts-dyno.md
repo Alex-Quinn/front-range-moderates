@@ -8,6 +8,7 @@ location: Gross Reservior
 tags:
   - v3
   - gross_reservior
+full_page: false
 ---
 
 ## Description

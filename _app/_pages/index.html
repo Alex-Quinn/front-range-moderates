@@ -24,7 +24,13 @@ thumb_force_logo: true
     </tr>
     {% for boulder in site.categories.boulder %}
       <tr>
-        <td><a href="{{ boulder.url }}" {{ amsf_page_theme_color }}>{{ boulder.title }}</a></td>
+        <td>
+          {% if boulder.full_page %}
+            <a href="{{ boulder.url }}" {{ amsf_page_theme_color }}>{{ boulder.title }}</a>
+          {% else %}
+            {{ boulder.title }}
+          {% endif %}
+        </td>
         <td>{{ boulder.grade }}</td>
         <td>{{ boulder.location }}</td>
       </tr>

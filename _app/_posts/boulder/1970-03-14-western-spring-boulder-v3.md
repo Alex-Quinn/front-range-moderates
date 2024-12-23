@@ -8,6 +8,7 @@ location: Estes Park
 tags:
   - v3
   - estes_park
+full_page: false
 ---
 
 ## Description

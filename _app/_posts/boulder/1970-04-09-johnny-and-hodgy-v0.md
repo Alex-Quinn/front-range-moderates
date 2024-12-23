@@ -8,6 +8,7 @@ location: Poudre Canyon
 tags:
   - v0
   - poudre_canyon
+full_page: false
 ---
 
 ## Description

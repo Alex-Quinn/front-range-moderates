@@ -15,7 +15,7 @@ puts "Done deleting all existing posts..."
 puts "Creating posts for each boulder in database..."
 
 boulder_data = CSV.open(BOULDER_CSV_DATA_PATH, headers: :first_row).map(&:to_h)
-sorted = boulder_data.sort_by do |d|
+sorted = boulder_data.reject { |d| d["Name"].nil? }.sort_by do |d|
   [d["Grade"].tr("V", "").to_i, d["Location"], d["Name"]]
 end.reverse
 
@@ -38,6 +38,9 @@ sorted.each.with_index do |info, i|
       more_info
     end
 
+  desc_str = info["Description"]
+  full_page = !desc_str.nil? && desc_str.length > 0
+
   contents = <<-TEMPLATE
 ---
 layout: boulder
@@ -49,10 +52,11 @@ location: #{info["Location"]}
 tags:
   - #{info["Grade"].downcase}
   - #{info["Location"].tr(" ", "_").downcase}
+full_page: #{full_page}
 ---
 
 ## Description
-#{info["Description"]}
+#{desc_str}
 
 ## More Info
 #{more_info_str}

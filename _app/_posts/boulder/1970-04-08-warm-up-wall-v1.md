@@ -8,6 +8,7 @@ location: Castlewood Canyon
 tags:
   - v1
   - castlewood_canyon
+full_page: false
 ---
 
 ## Description

@@ -8,6 +8,7 @@ location: Eldorado Canyon
 tags:
   - v3
   - eldorado_canyon
+full_page: false
 ---
 
 ## Description

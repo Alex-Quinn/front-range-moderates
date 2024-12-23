@@ -8,6 +8,7 @@ location: Camp Dick
 tags:
   - v5
   - camp_dick
+full_page: false
 ---
 
 ## Description
