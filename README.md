@@ -35,3 +35,14 @@ git checkout cf-pages
 git merge master
 git push
 ```
+
+## Boulder Import
+
+The boulders are listed in Google Sheets [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTnfM5loPJ_myfD7C3ufp1PBRSlnvpQ9xKHD_3zKvj-Vayj5LTLx99GJIHjINNr7rgOB9KvF5ts5oLC/pub?gid=0&single=true&output=csv).
+
+To import an updates list into the website:
+1. Download the CSV from the link above
+2. Move the CSV into `_app/_data/front_range_moderates.csv`
+3. Run the import script
+    - `ruby _app/_import/import_boulders.rb`
+4. Commit changes to Git
