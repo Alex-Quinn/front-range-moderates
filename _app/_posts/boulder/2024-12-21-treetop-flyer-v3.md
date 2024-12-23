@@ -9,6 +9,3 @@ tags:
     - v3
     - camp_dick
 ---
-
-Name: Treetop Flyer
-Grade: V3
