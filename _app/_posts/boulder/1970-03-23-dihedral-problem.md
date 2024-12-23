@@ -11,8 +11,10 @@ tags:
 full_page: false
 ---
 
-## Description
+Description
+{: .largetype}
 
 
-## More Info
+More Info
+{: .largetype}
 [https://www.mountainproject.com/route/106257778/dihedral-problem](https://www.mountainproject.com/route/106257778/dihedral-problem){:target="_blank"}

@@ -55,10 +55,12 @@ tags:
 full_page: #{full_page}
 ---
 
-## Description
+Description
+{: .largetype}
 #{desc_str}
 
-## More Info
+More Info
+{: .largetype}
 #{more_info_str}
   TEMPLATE
 

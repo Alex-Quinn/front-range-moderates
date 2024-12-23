@@ -11,8 +11,10 @@ tags:
 full_page: false
 ---
 
-## Description
+Description
+{: .largetype}
 
 
-## More Info
+More Info
+{: .largetype}
 [https://www.mountainproject.com/route/105749368/jaws](https://www.mountainproject.com/route/105749368/jaws){:target="_blank"}

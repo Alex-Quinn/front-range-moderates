@@ -11,8 +11,10 @@ tags:
 full_page: false
 ---
 
-## Description
+Description
+{: .largetype}
 
 
-## More Info
+More Info
+{: .largetype}
 [https://www.mountainproject.com/route/106484362/guiding-light-aka-round-up](https://www.mountainproject.com/route/106484362/guiding-light-aka-round-up){:target="_blank"}

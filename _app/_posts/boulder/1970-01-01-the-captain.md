@@ -11,8 +11,10 @@ tags:
 full_page: false
 ---
 
-## Description
+Description
+{: .largetype}
 
 
-## More Info
+More Info
+{: .largetype}
 [https://www.mountainproject.com/route/106438889/the-captain](https://www.mountainproject.com/route/106438889/the-captain){:target="_blank"}

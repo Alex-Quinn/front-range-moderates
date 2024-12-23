@@ -11,8 +11,10 @@ tags:
 full_page: false
 ---
 
-## Description
+Description
+{: .largetype}
 
 
-## More Info
+More Info
+{: .largetype}
 Colorado Bouldering: Front Range (Guidebook)

@@ -11,8 +11,10 @@ tags:
 full_page: false
 ---
 
-## Description
+Description
+{: .largetype}
 
 
-## More Info
+More Info
+{: .largetype}
 [https://www.mountainproject.com/route/106657881/cheeseburger](https://www.mountainproject.com/route/106657881/cheeseburger){:target="_blank"}
