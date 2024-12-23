@@ -1,6 +1,7 @@
 ---
 title: The Traverse
 grade: V4
+location: Camp Dick
 
 layout: boulder
 category: boulder

@@ -1,6 +1,7 @@
 ---
 title: Treetop Flyer
 grade: V3
+location: Camp Dick
 
 layout: boulder
 category: boulder

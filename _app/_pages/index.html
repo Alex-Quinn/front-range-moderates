@@ -16,5 +16,18 @@ thumb_force_logo: true
     <h2 class="sub-title">A guide to the best moderate boulders in Colorado's Front Range</h2>
   </header>
 
-  <h2>Coming Soon...</h2>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Grade</th>
+      <th>Location</th>
+    </tr>
+    {% for boulder in site.categories.boulder %}
+      <tr>
+        <td><a href="{{ boulder.url }}" {{ amsf_page_theme_color }}>{{ boulder.title }}</a></td>
+        <td>{{ boulder.grade }}</td>
+        <td>{{ boulder.location }}</td>
+      </tr>
+    {% endfor %}
+  </table>
 </article>

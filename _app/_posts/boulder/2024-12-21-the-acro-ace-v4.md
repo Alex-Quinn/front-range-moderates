@@ -1,6 +1,7 @@
 ---
 title: The Acro-Ace
 grade: V4
+location: Boulder Canyon
 
 layout: boulder
 category: boulder
