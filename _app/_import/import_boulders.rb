@@ -6,68 +6,85 @@ require 'fileutils'
 BOULDER_CSV_DATA_PATH = "./_app/_data/front_range_moderates.csv"
 BOULDER_POSTS_GLOB = "./_app/_posts/boulder/*.md"
 
-# Delete all existing posts
-puts "Deleting all existing posts..."
-FileUtils.rm(Dir.glob(BOULDER_POSTS_GLOB))
-puts "Done deleting all existing posts..."
+module ImportBoulders
+  def self.run
+    # Delete all existing posts
+    puts "Deleting all existing posts..."
+    FileUtils.rm(Dir.glob(BOULDER_POSTS_GLOB))
+    puts "Done deleting all existing posts..."
 
-# For each entry in the CSV, create a post
-puts "Creating posts for each boulder in database..."
+    # For each entry in the CSV, create a post
+    puts "Creating posts for each boulder in database..."
 
-boulder_data = CSV.open(BOULDER_CSV_DATA_PATH, headers: :first_row).map(&:to_h)
-sorted = boulder_data.reject { |d| d["Name"].nil? }.sort_by do |d|
-  [d["Grade"].tr("V", "").to_i, d["Location"], d["Name"]]
-end.reverse
+    boulder_data = CSV.open(BOULDER_CSV_DATA_PATH, headers: :first_row).map(&:to_h)
+    sorted = boulder_data.reject { |d| d["Name"].nil? }.sort_by do |d|
+      [d["Grade"].tr("V", "").to_i, d["Location"], d["Name"]]
+    end.reverse
 
-time_for_file_name = Time.at(0)
-sorted.each.with_index do |info, i|
-  puts "   - #{info["Name"]}"
+    time_for_file_name = Time.at(0)
+    sorted.each.with_index do |info, i|
+      name = info["Name"]
+      grade = info["Grade"]
+      location = info["Location"]
+      description = info["Description"]
+      more_info = info["More Info"]
+      photo_link = info["Photo"]
+      full_page = !description.nil? && description.length > 0
 
-  sanitized_name = info["Name"].gsub(/\.|'|"|\(|\)/, "").tr(" ", "-").downcase
+      puts "   - #{name}"
 
-  # To make sure boulders show up in order, hack together dates in ascending order
-  time_for_file_name += 86400
-  file_name = "#{time_for_file_name.strftime("%Y-%m-%d")}-#{sanitized_name}.md"
-  file_path = "_app/_posts/boulder/#{file_name}"
+      content = ImportBoulders.content_str(name, grade, location, description, more_info, photo_link, full_page)
 
-  more_info = info["More Info"]
-  more_info_str =
-    if more_info =~ /\.com/
-      "[#{more_info}](#{more_info}){:target=\"_blank\"}"
-    else
-      more_info
+      # To make sure boulders show up in order, hack together dates in ascending order
+      time_for_file_name += 86400
+      sanitized_name = name.gsub(/\.|'|"|\(|\)/, "").tr(" ", "-").downcase
+      file_name = "#{time_for_file_name.strftime("%Y-%m-%d")}-#{sanitized_name}.md"
+      file_path = "_app/_posts/boulder/#{file_name}"
+
+      File.open(file_path, "w+") do |f|
+        f.write(content)
+      end
     end
 
-  desc_str = info["Description"]
-  full_page = !desc_str.nil? && desc_str.length > 0
+    puts
+    puts "Done!"
+  end
 
-  contents = <<-TEMPLATE
+  def self.content_str(name, grade, location, description, more_info, photo_link, full_page)
+<<-CONTENT
 ---
 layout: boulder
 category: boulder
 
-title: #{info["Name"]}
-grade: #{info["Grade"]}
-location: #{info["Location"]}
+title: #{name}
+grade: #{grade}
+location: #{location}
 tags:
-  - #{info["Grade"].downcase}
-  - #{info["Location"].tr(" ", "_").downcase}
+- #{grade.downcase}
+- #{location.tr(" ", "_").downcase}
 full_page: #{full_page}
 ---
+#{ImportBoulders.photo_str(photo_link)}
 
 Description
 {: .largetype}
-#{desc_str}
+#{description}
 
 More Info
 {: .largetype}
-#{more_info_str}
-  TEMPLATE
+#{more_info}
+CONTENT
+  end
 
-  File.open(file_path, "w+") do |f|
-    f.write(contents)
+  def self.photo_str(photo_link)
+    return "" if photo_link.nil?
+<<-IMG_STR
+
+![Image](#{photo_link}){: .size-small}
+
+---
+IMG_STR
   end
 end
 
-puts
-puts "Done!"
+ImportBoulders.run

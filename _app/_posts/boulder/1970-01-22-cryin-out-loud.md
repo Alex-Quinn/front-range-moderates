@@ -6,10 +6,11 @@ title: Cryin' Out Loud
 grade: V5
 location: Estes Park
 tags:
-  - v5
-  - estes_park
+- v5
+- estes_park
 full_page: false
 ---
+
 
 Description
 {: .largetype}
@@ -17,4 +18,4 @@ Description
 
 More Info
 {: .largetype}
-Colorado Bouldering: Front Range (Guidebook)
+

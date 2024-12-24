@@ -4,12 +4,13 @@ category: boulder
 
 title: Boar's Nest
 grade: V5
-location: Gross Reservior
+location: Gross Reservoir
 tags:
-  - v5
-  - gross_reservior
+- v5
+- gross_reservoir
 full_page: false
 ---
+
 
 Description
 {: .largetype}
@@ -17,4 +18,4 @@ Description
 
 More Info
 {: .largetype}
-Colorado Bouldering: Front Range (Guidebook)
+

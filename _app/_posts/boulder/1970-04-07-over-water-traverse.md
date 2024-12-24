@@ -6,10 +6,11 @@ title: Over Water Traverse
 grade: V1
 location: Eldorado Canyon
 tags:
-  - v1
-  - eldorado_canyon
+- v1
+- eldorado_canyon
 full_page: false
 ---
+
 
 Description
 {: .largetype}
@@ -17,4 +18,4 @@ Description
 
 More Info
 {: .largetype}
-Colorado Bouldering: Front Range (Guidebook)
+

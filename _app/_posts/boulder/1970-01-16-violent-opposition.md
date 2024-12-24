@@ -6,10 +6,11 @@ title: Violent Opposition
 grade: V5
 location: Flatirons
 tags:
-  - v5
-  - flatirons
+- v5
+- flatirons
 full_page: false
 ---
+
 
 Description
 {: .largetype}
@@ -17,4 +18,4 @@ Description
 
 More Info
 {: .largetype}
-Colorado Bouldering: Front Range (Guidebook)
+

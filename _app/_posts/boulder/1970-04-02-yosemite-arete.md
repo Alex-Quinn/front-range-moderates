@@ -6,10 +6,11 @@ title: Yosemite Arete
 grade: V1
 location: Poudre Canyon
 tags:
-  - v1
-  - poudre_canyon
+- v1
+- poudre_canyon
 full_page: false
 ---
+
 
 Description
 {: .largetype}
@@ -17,4 +18,4 @@ Description
 
 More Info
 {: .largetype}
-Colorado Bouldering: Front Range (Guidebook)
+

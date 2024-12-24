@@ -6,10 +6,11 @@ title: The Dihedrals V4
 grade: V4
 location: Morrison
 tags:
-  - v4
-  - morrison
+- v4
+- morrison
 full_page: false
 ---
+
 
 Description
 {: .largetype}
@@ -17,4 +18,4 @@ Description
 
 More Info
 {: .largetype}
-Colorado Bouldering: Front Range (Guidebook)
+

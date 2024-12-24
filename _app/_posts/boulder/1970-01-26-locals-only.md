@@ -6,10 +6,11 @@ title: Locals Only
 grade: V5
 location: Castlewood Canyon
 tags:
-  - v5
-  - castlewood_canyon
+- v5
+- castlewood_canyon
 full_page: false
 ---
+
 
 Description
 {: .largetype}
@@ -17,4 +18,4 @@ Description
 
 More Info
 {: .largetype}
-Colorado Bouldering: Front Range (Guidebook)
+

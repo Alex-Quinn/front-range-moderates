@@ -6,10 +6,11 @@ title: Pratt's Mantel
 grade: V2
 location: Flagstaff
 tags:
-  - v2
-  - flagstaff
+- v2
+- flagstaff
 full_page: false
 ---
+
 
 Description
 {: .largetype}
@@ -17,4 +18,4 @@ Description
 
 More Info
 {: .largetype}
-Colorado Bouldering: Front Range (Guidebook)
+

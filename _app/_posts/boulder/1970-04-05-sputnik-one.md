@@ -6,10 +6,11 @@ title: Sputnik One
 grade: V1
 location: Flatirons
 tags:
-  - v1
-  - flatirons
+- v1
+- flatirons
 full_page: false
 ---
+
 
 Description
 {: .largetype}
@@ -17,4 +18,4 @@ Description
 
 More Info
 {: .largetype}
-Colorado Bouldering: Front Range (Guidebook)
+

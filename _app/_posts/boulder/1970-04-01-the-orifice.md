@@ -6,10 +6,11 @@ title: The Orifice
 grade: V2
 location: Camp Dick
 tags:
-  - v2
-  - camp_dick
+- v2
+- camp_dick
 full_page: false
 ---
+
 
 Description
 {: .largetype}
@@ -17,4 +18,4 @@ Description
 
 More Info
 {: .largetype}
-Colorado Bouldering: Front Range (Guidebook)
+

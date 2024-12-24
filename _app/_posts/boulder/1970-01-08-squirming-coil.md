@@ -6,10 +6,11 @@ title: Squirming Coil
 grade: V5
 location: Morrison
 tags:
-  - v5
-  - morrison
+- v5
+- morrison
 full_page: false
 ---
+
 
 Description
 {: .largetype}
@@ -17,4 +18,4 @@ Description
 
 More Info
 {: .largetype}
-Colorado Bouldering: Front Range (Guidebook)
+

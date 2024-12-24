@@ -6,10 +6,11 @@ title: Simian Adventure
 grade: V5
 location: South St. Vrain
 tags:
-  - v5
-  - south_st._vrain
+- v5
+- south_st._vrain
 full_page: false
 ---
+
 
 Description
 {: .largetype}
@@ -17,4 +18,4 @@ Description
 
 More Info
 {: .largetype}
-Colorado Bouldering: Front Range (Guidebook)
+

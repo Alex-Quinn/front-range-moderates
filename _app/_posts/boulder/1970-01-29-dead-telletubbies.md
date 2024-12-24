@@ -6,10 +6,11 @@ title: Dead Telletubbies
 grade: V5
 location: Camp Dick
 tags:
-  - v5
-  - camp_dick
+- v5
+- camp_dick
 full_page: false
 ---
+
 
 Description
 {: .largetype}
@@ -17,4 +18,4 @@ Description
 
 More Info
 {: .largetype}
-Colorado Bouldering: Front Range (Guidebook)
+

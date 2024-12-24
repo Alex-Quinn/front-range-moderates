@@ -6,10 +6,11 @@ title: Warm-up Wall V1
 grade: V1
 location: Castlewood Canyon
 tags:
-  - v1
-  - castlewood_canyon
+- v1
+- castlewood_canyon
 full_page: false
 ---
+
 
 Description
 {: .largetype}
@@ -17,4 +18,4 @@ Description
 
 More Info
 {: .largetype}
-Colorado Bouldering: Front Range (Guidebook)
+

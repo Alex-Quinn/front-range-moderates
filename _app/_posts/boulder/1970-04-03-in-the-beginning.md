@@ -6,10 +6,11 @@ title: In The Beginning
 grade: V1
 location: Morrison
 tags:
-  - v1
-  - morrison
+- v1
+- morrison
 full_page: false
 ---
+
 
 Description
 {: .largetype}
@@ -17,4 +18,4 @@ Description
 
 More Info
 {: .largetype}
-Colorado Bouldering: Front Range (Guidebook)
+

@@ -6,10 +6,11 @@ title: Socrate's Overhang
 grade: V5
 location: Green Mountain
 tags:
-  - v5
-  - green_mountain
+- v5
+- green_mountain
 full_page: false
 ---
+
 
 Description
 {: .largetype}
@@ -17,4 +18,4 @@ Description
 
 More Info
 {: .largetype}
-Colorado Bouldering: Front Range (Guidebook)
+
