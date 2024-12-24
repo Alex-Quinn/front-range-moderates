@@ -37,4 +37,4 @@ If you have thoughts (especially, flagging dangerous boulders), send a note to [
 
 Who built this?
 {: .largetype}
-👋 I'm [Alex Quinn](https://alexjq.com){:target="_blank"}. Maker of lists. Climber of mods.
+👋 I'm [Alex](https://alexjq.com){:target="_blank"}. Maker of lists. Climber of mods.
