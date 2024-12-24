@@ -29,6 +29,10 @@ For the purposes of this list, "moderate" means:
 - V0 - V5
 - Boulders you can climb (and fall off) safely with a couple of pads and a spotter
 
+Just give me a spreadsheet!
+{: .largetype}
+Sure, here you go!](https://docs.google.com/spreadsheets/d/1aQ7KqfP4WtaChjEm9pzzSl-gzgV85KD75qp6uzEGWBI/edit?usp=sharing)
+
 Feedback & contributions
 {: .largetype}
 The list is always evolving and I haven't climbed (or even stood under) every boulder.

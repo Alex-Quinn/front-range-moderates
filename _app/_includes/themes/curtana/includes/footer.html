@@ -3,12 +3,9 @@
   <footer class="footer">
     <ul>
       <li><a href="{{ '/' | relative_url }}">{{ amsf_site_name }}</a></li>
-
-      {% if site.credits %}
-        <li>
-          <a href="https://sparanoid.com/lab/amsf/" title="Almace Scaffolding with theme {{ site.data.curtana.meta.name }}">AMSF</a>
-        </li>
-      {% endif %}
+      <li>
+        <a href="https://docs.google.com/spreadsheets/d/1aQ7KqfP4WtaChjEm9pzzSl-gzgV85KD75qp6uzEGWBI/edit?usp=sharing" target="_blank">Just give me a spreedsheet!</a>
+      </li>
 
       {% for item in site.data.footer %}
         {%- include amsf/relative_url url=item.url -%}
