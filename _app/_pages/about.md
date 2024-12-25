@@ -31,7 +31,7 @@ For the purposes of this list, "moderate" means:
 
 Just give me a spreadsheet!
 {: .largetype}
-Sure, here you go!](https://docs.google.com/spreadsheets/d/1aQ7KqfP4WtaChjEm9pzzSl-gzgV85KD75qp6uzEGWBI/edit?usp=sharing)
+[Sure, here you go!](https://docs.google.com/spreadsheets/d/1aQ7KqfP4WtaChjEm9pzzSl-gzgV85KD75qp6uzEGWBI/edit?usp=sharing)
 
 Feedback & contributions
 {: .largetype}
