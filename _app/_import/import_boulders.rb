@@ -29,7 +29,7 @@ module ImportBoulders
       description = info["Description"]
       more_info = info["More Info"]
       photo_link = info["Photo"]
-      full_page = !description.nil? && description.length > 0
+      full_page = (!description.nil? && description.length > 0) || !photo_link.nil?
 
       puts "   - #{name}"
 
