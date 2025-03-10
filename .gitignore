@@ -40,3 +40,6 @@ _app/assets/**/css
 # AMSF deprecated, leave them for compatibility
 _amsf/themes
 _amsf/core
+
+# Misc.
+.google_api_credentials.json

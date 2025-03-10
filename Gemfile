@@ -8,6 +8,8 @@ group :development do
 
   # TODO: https://github.com/sass/dart-sass-embedded/issues/106
   gem "jekyll-sass-converter", "< 3.0"
+  gem 'google-apis-sheets_v4'
+  gem 'googleauth'
 end
 
 group :jekyll_plugins do

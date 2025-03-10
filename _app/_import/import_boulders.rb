@@ -2,9 +2,13 @@
 
 require 'csv'
 require 'fileutils'
+require 'google/apis/sheets_v4'
+require 'googleauth'
 
-BOULDER_CSV_DATA_PATH = "./_app/_data/front_range_moderates.csv"
 BOULDER_POSTS_GLOB = "./_app/_posts/boulder/*.md"
+GOOGLE_CREDS = "./.google_api_credentials.json"
+GOOGLE_SHEET_ID = "1aQ7KqfP4WtaChjEm9pzzSl-gzgV85KD75qp6uzEGWBI"
+GOOGLE_SHEET_RANGE = 'Master List!A1:F'
 
 module ImportBoulders
   def self.run
@@ -13,11 +17,26 @@ module ImportBoulders
     FileUtils.rm(Dir.glob(BOULDER_POSTS_GLOB))
     puts "Done deleting all existing posts..."
 
+    # Fetching boulder data
+    puts "Fetching boulder data from Google..."
+    authorizer = Google::Auth::ServiceAccountCredentials.make_creds(
+      json_key_io: File.open(GOOGLE_CREDS),
+      scope: ['https://www.googleapis.com/auth/spreadsheets.readonly']
+    )
+    service = Google::Apis::SheetsV4::SheetsService.new
+    service.authorization = authorizer
+    keys, *values = service.get_spreadsheet_values(
+      GOOGLE_SHEET_ID,
+      GOOGLE_SHEET_RANGE,
+    ).values
+    rows = values.map { |row| Hash[keys.zip(row)] }
+    boulder_data = rows.select do |row|
+      !row["Name"].nil? && row["Name"] != ""
+    end
+
     # For each entry in the CSV, create a post
     puts "Creating posts for each boulder in database..."
-
-    boulder_data = CSV.open(BOULDER_CSV_DATA_PATH, headers: :first_row).map(&:to_h)
-    sorted = boulder_data.reject { |d| d["Name"].nil? }.sort_by do |d|
+    sorted = boulder_data.sort_by do |d|
       [d["Grade"].tr("V", "").to_i, d["Location"], d["Name"]]
     end.reverse
 

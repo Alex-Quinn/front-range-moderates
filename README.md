@@ -41,8 +41,6 @@ git push
 All info for the boulders is stored in a CSV file (hosted by Google Sheets) [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTnfM5loPJ_myfD7C3ufp1PBRSlnvpQ9xKHD_3zKvj-Vayj5LTLx99GJIHjINNr7rgOB9KvF5ts5oLC/pub?gid=0&single=true&output=csv).
 
 To import an updated list into the website:
-1. Download the CSV from the link above
-2. Move the CSV into `_app/_data/front_range_moderates.csv`
-3. Run the import script
+1. Store your Google API credentials (JSON) at `.google_api_credentials.json`
+1. Run the import script
     - `ruby _app/_import/import_boulders.rb`
-4. Commit changes to Git
