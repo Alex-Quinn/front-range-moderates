@@ -22,4 +22,4 @@ A proud line of jugs up the arete. Some tricky moves at the start lead to easy c
 
 More Info
 {: .largetype}
--[Mountain Project](https://www.mountainproject.com/route/105999202/in-the-beginning){:target="_blank"}
+- [Mountain Project](https://www.mountainproject.com/route/105999202/in-the-beginning){:target="_blank"}

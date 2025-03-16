@@ -22,4 +22,4 @@ Start on the horn and move right to good holds and a rompy topout. Unique moves 
 
 More Info
 {: .largetype}
--[Mountain Project](https://www.mountainproject.com/route/119220756/horns-mudda-right){:target="_blank"}
+- [Mountain Project](https://www.mountainproject.com/route/119220756/horns-mudda-right){:target="_blank"}
