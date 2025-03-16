@@ -18,8 +18,8 @@ full_page: true
 
 Description
 {: .largetype}
-
+A fun powerful move into a finger lock guards a topout on good holds.
 
 More Info
 {: .largetype}
-
+- [Mountain Project](https://www.mountainproject.com/route/105756277/standard-route){:target="_blank"}

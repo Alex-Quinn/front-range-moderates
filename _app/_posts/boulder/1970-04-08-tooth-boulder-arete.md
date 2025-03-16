@@ -23,4 +23,3 @@ A less slabby (but still very technical!) cousin to the slab around the corner. 
 More Info
 {: .largetype}
 - [Mountain Project](https://www.mountainproject.com/route/105749365/tooth-arete){:target="_blank"}
-- [Colorado Bouldering: Front Range](https://stores.sharpendbooks.com/colorado-bouldering-front-range/){:target="_blank"}

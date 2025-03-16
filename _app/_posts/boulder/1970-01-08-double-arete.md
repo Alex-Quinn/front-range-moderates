@@ -18,8 +18,8 @@ full_page: true
 
 Description
 {: .largetype}
-
+Unique and aesthetic line for the Front Range. For most people, a max span moves across the refrigerator take you to a scary but ultimately safe topout.
 
 More Info
 {: .largetype}
-
+- [Mountain Project](https://www.mountainproject.com/route/106059274/double-arete){:target="_blank"}

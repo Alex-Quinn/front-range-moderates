@@ -18,8 +18,8 @@ full_page: true
 
 Description
 {: .largetype}
-
+Funky dynamic moves lead to a fun topout. A few pads are handy to protect the tiered landing.
 
 More Info
 {: .largetype}
-
+- [Mountain Project](https://www.mountainproject.com/route/105756283/south-line){:target="_blank"}

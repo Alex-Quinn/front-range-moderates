@@ -23,4 +23,3 @@ Bring your slab slippers to prance up this thing. Or, if you're like me, climb i
 More Info
 {: .largetype}
 - [Mountain Project](https://www.mountainproject.com/route/105749362/tooth-slab){:target="_blank"}
-- [Colorado Bouldering: Front Range](https://stores.sharpendbooks.com/colorado-bouldering-front-range/){:target="_blank"}
