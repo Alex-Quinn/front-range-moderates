@@ -19,7 +19,7 @@ But... why?
 {: .largetype}
 Ever trekked out to climb a “classic” only to find it’s crumbly, awkward, or dangerous? Yeah, me too.
 
-Some days, exploring is part of the fun. Other days, you just want curated list.
+Some days, exploring is part of the fun. Other days, you just want a curated list.
 
 Defining "moderate"
 {: .largetype}
@@ -29,7 +29,7 @@ For the purposes of this list, "moderate" means:
 
 Just give me a spreadsheet!
 {: .largetype}
-[Sure, here you go!](https://docs.google.com/spreadsheets/d/1aQ7KqfP4WtaChjEm9pzzSl-gzgV85KD75qp6uzEGWBI/edit?usp=sharing)
+[Sure, here you go!](https://docs.google.com/spreadsheets/d/1aQ7KqfP4WtaChjEm9pzzSl-gzgV85KD75qp6uzEGWBI/edit?usp=sharing){:target="_blank"}
 
 Feedback
 {: .largetype}
