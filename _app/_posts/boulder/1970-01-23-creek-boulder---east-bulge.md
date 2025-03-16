@@ -11,7 +11,7 @@ tags:
 full_page: true
 ---
 
-![Image](https://pub-512d85031b1440409fe8612f837b8235.r2.dev/horns_mudda_right_eldorado_canyon_v1.jpg){: .size-small}
+![Image](https://pub-512d85031b1440409fe8612f837b8235.r2.dev/east_bulge_eldorado_canyon_v5.jpg){: .size-small}
 
 ---
 
