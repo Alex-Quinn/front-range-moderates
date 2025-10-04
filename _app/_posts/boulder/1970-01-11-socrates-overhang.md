@@ -12,9 +12,6 @@ full_page: false
 ---
 
 
-Description
-{: .largetype}
-
 
 More Info
 {: .largetype}

@@ -84,15 +84,23 @@ tags:
 full_page: #{full_page}
 ---
 #{ImportBoulders.photo_str(photo_link)}
-
-Description
-{: .largetype}
-#{description}
+#{ImportBoulders.desc_str(description)}
 
 More Info
 {: .largetype}
 #{more_info}
 CONTENT
+  end
+
+  def self.desc_str(description)
+    return "" if description.nil? || description == ""
+
+<<-DESC_STR
+
+Description
+{: .largetype}
+#{description}
+DESC_STR
   end
 
   def self.photo_str(photo_link)
