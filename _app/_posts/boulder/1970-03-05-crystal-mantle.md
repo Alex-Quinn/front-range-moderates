@@ -14,7 +14,7 @@ full_page: true
 
 Description
 {: .largetype}
-Fun movement on really cool cobbles. Unique for Flagstaff and definitely worth getting on.
+Fun movement on cool cobbles. Unique for Flagstaff and definitely worth getting on.
 
 
 More Info
