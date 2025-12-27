@@ -2,7 +2,7 @@
 layout: boulder
 category: boulder
 
-title: The Scoop
+title: Penny Pincher
 grade: V3
 location: Horsetooth Reservoir
 tags:

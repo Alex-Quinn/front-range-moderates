@@ -2,11 +2,11 @@
 layout: boulder
 category: boulder
 
-title: Bootie
-grade: V1
+title: Right Eliminator
+grade: V4
 location: Horsetooth Reservoir
 tags:
-- v1
+- v4
 - horsetooth_reservoir
 full_page: false
 ---

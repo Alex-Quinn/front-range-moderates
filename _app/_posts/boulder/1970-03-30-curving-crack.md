@@ -2,11 +2,11 @@
 layout: boulder
 category: boulder
 
-title: Pinch Overhang
-grade: V5
+title: Curving Crack
+grade: V0
 location: Horsetooth Reservoir
 tags:
-- v5
+- v0
 - horsetooth_reservoir
 full_page: false
 ---
