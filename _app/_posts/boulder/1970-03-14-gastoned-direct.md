@@ -2,16 +2,16 @@
 layout: boulder
 category: boulder
 
-title: Right Eliminator
-grade: V4
+title: Gastoned Direct
+grade: V2
 location: Horsetooth Reservoir
 tags:
-- v4
+- v2
 - horsetooth_reservoir
 full_page: true
 ---
 
-![Image](https://pub-512d85031b1440409fe8612f837b8235.r2.dev/right_eliminator_horsetooth_v4.jpg){: .size-small}
+![Image](https://pub-512d85031b1440409fe8612f837b8235.r2.dev/gaston_direct_horsetooth_v1.jpg){: .size-small}
 
 ---
 
