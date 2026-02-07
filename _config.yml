@@ -116,13 +116,6 @@ flatten_base:   false
 # Default:      /assets
 assets:         /assets
 
-# Feed URL
-#
-# Define your main feed URL, this will be only used in your templates
-#
-# Default:      /feed.xml
-feed:           /feed.xml
-
 # Site full URL
 #
 # Used in atom feed, sitemap, Twitter Cards, and etc. I should use absolute full
@@ -142,17 +135,6 @@ url:            https://frontrangemoderates.com
 #
 # Default:      https://d349cztnlupsuf.cloudfront.net
 file:           https://d349cztnlupsuf.cloudfront.net
-
-# Download files URL
-#
-# Download files URL are used in posts, ie.
-# href="{{ site.download }}/package.zip", this should also be a CDN link just
-# like `site.file`. There're no notable differences in `site.file` and
-# `site.download`, I just use the one for post images and the other for large
-# download files. That's it. Remove or ignore this if you don't need it.
-#
-# Default:      https://d1bmx7s6749k4k.cloudfront.net
-download:       https://d1bmx7s6749k4k.cloudfront.net
 
 # Colors
 #
@@ -175,37 +157,12 @@ google_analytics:
   id:           UA-xxxxxxx
   url:          https://www.google-analytics.com/analytics.js
 
-# Site Twitter account handle
-twitter:        
-
-# Twitter Cards large images
-#
-# Use summary card with large image for Twitter Cards, require theme support
-#
-# Default:      true
-tc_large_image: true
-
 # Force UTF-8 encoding
 #
 # Enable this will simply add <meta charset="utf-8"> to the head of your pages
 #
 # Default:      true
 force_utf_8:    true
-
-# Link blog
-#
-# Enable this settings to make your feed Daring Fireball-like link blog (This
-# basically change your <link> value to external link you defined in your posts)
-#
-# Default:      false
-link_blog:      false
-
-# Excerpts for RSS
-#
-# Change the value to true to use post excerpt for RSS feeds
-#
-# Default:      false
-rss_excerpt:    false
 
 # Generator credits
 #
