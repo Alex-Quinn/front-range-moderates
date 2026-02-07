@@ -37,9 +37,7 @@ _app/assets/**/js
 _app/assets/**/css
 .yarn/install-state.gz
 
-# AMSF deprecated, leave them for compatibility
-_amsf/themes
-_amsf/core
-
 # Misc.
 .google_api_credentials.json
+.claude
+MEMORY.md
