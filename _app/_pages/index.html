@@ -17,23 +17,27 @@ thumb_force_logo: true
   </header>
 
   <table>
-    <tr>
-      <th>Name</th>
-      <th>Grade</th>
-      <th>Location</th>
-    </tr>
-    {% for boulder in site.categories.boulder %}
+    <thead>
       <tr>
-        <td>
-          {% if boulder.full_page %}
-            <a href="{{ boulder.url }}" {{ amsf_page_theme_color }}>{{ boulder.title }}</a>
-          {% else %}
-            {{ boulder.title }}
-          {% endif %}
-        </td>
-        <td>{{ boulder.grade }}</td>
-        <td>{{ boulder.location }}</td>
+        <th data-sort="alpha">Name <span class="sort-arrow"><span class="arrow-up"></span><span class="arrow-down"></span></span></th>
+        <th data-sort="grade">Grade <span class="sort-arrow"><span class="arrow-up"></span><span class="arrow-down"></span></span></th>
+        <th data-sort="alpha">Location <span class="sort-arrow"><span class="arrow-up"></span><span class="arrow-down"></span></span></th>
       </tr>
-    {% endfor %}
+    </thead>
+    <tbody>
+      {% for boulder in site.categories.boulder %}
+        <tr>
+          <td>
+            {% if boulder.full_page %}
+              <a href="{{ boulder.url }}" {{ amsf_page_theme_color }}>{{ boulder.title }}</a>
+            {% else %}
+              {{ boulder.title }}
+            {% endif %}
+          </td>
+          <td>{{ boulder.grade }}</td>
+          <td>{{ boulder.location }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
   </table>
 </article>
