@@ -9,17 +9,7 @@ The List
 {: .largetype}
 Front Range Moderates is a list of (roughly) 100 high-quality boulders around the Front Range of Colorado. Think fun, classic, and relatively safe boulders that are perfect for the "volume day" you never get around to.
 
-The initial list came from all the 3 and 4 star boulders (without a highball rating) from Phillip Benningfield and Matt Samet's [_Colorado Bouldering: Front Range_](https://stores.sharpendbooks.com/colorado-bouldering-front-range/){:target="_blank"} guidebook.
-
-Since then, it has been heavily tweaked based on my subjective opinions of  quality and safety.
-
 It’s a living list. Expect changes as I climb more of the boulders.
-
-But... why?
-{: .largetype}
-Ever trekked out to climb a “classic” only to find it’s crumbly, awkward, or dangerous? Yeah, me too.
-
-Some days, exploring is part of the fun. Other days, you just want a curated list.
 
 Defining "moderate"
 {: .largetype}
