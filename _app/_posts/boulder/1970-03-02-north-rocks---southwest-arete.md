@@ -2,7 +2,7 @@
 layout: boulder
 category: boulder
 
-title: Southwest Arete
+title: North Rocks - Southwest Arete
 grade: V3
 location: Flagstaff
 tags:
